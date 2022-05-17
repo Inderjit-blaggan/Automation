@@ -1,0 +1,2947 @@
+Tue May 17 23:17:40 IST 2022
+Code is getting applied on account:509704156812 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:17:55 IST 2022
+Code is getting applied on account:263975693283 
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': ['arn:aws:iam::575672604269:role/envPage', 'arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount']}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0fbdcb78eab7b6e4b
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:18:20 IST 2022
+Code is getting applied on account:416029571919 
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': ['arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount', 'arn:aws:iam::575672604269:role/envPage'], 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-05191f2ee660c7732
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:18:45 IST 2022
+Code is getting applied on account:23061712707 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Adding config file to 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:19:00 IST 2022
+Code is getting applied on account:447378552641 
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': ['arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount', 'arn:aws:iam::575672604269:role/envPage']}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-028027753337f85ff
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:19:25 IST 2022
+Code is getting applied on account:867907917890 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:19:40 IST 2022
+Code is getting applied on account:630034004811 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-012736c984f1d5f54
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:19:54 IST 2022
+Code is getting applied on account:804596621126 
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': ['arn:aws:iam::575672604269:role/envPage', 'arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount'], 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-06cfa1f375c8a4828
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:20:19 IST 2022
+Code is getting applied on account:263975693283 
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': ['arn:aws:iam::575672604269:role/envPage', 'arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount']}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0fbdcb78eab7b6e4b
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:24:44 IST 2022
+Code is getting applied on account:381188050020 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:01 IST 2022
+Code is getting applied on account:975746488271 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-069ef7ad5b49d683e
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:28 IST 2022
+Code is getting applied on account:160513558103 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-06c301f4895be9ef9
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:45 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:49 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:53 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:25:56 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:26:00 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:26:04 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:28:20 IST 2022
+Code is getting applied on account:261390753486 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:28:37 IST 2022
+Code is getting applied on account:176309687584 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-05e6085b58118fa2a
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:29:03 IST 2022
+Code is getting applied on account:99188235737 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Adding config file to 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:29:18 IST 2022
+Code is getting applied on account:369556419013 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-04b7c95c4f8262ace
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:29:45 IST 2022
+Code is getting applied on account:27512332805 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Adding config file to 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:29:58 IST 2022
+Code is getting applied on account:237840073416 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:30:14 IST 2022
+Code is getting applied on account:744382122683 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:30:30 IST 2022
+Code is getting applied on account:301465073021 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-065dd6ae4f5184540
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:30:56 IST 2022
+Code is getting applied on account:594504648029 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0c83dbfc03ef1b6de
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:38:26 IST 2022
+Code is getting applied on account:452460757919 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0ca7617c9123ae83d
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:38:54 IST 2022
+Code is getting applied on account:281882301406 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:39:10 IST 2022
+Code is getting applied on account:633759717959 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-0138f4335bad5b056
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:39:26 IST 2022
+Code is getting applied on account:312308075865 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0718f9896a2242be6
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:39:53 IST 2022
+Code is getting applied on account:170895530469 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:40:09 IST 2022
+Code is getting applied on account:898321658754 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0f0da9e1c7efaf4c0
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:40:35 IST 2022
+Code is getting applied on account:744028557743 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-05de22b4bec2f9357
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:41:01 IST 2022
+Code is getting applied on account:404067826977 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name EC2_servers cannot be found.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:41:17 IST 2022
+Code is getting applied on account:574828499418 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:41:33 IST 2022
+Code is getting applied on account:391767297048 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0e3d7276db3408f57
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:42:00 IST 2022
+Code is getting applied on account:220632944928 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-08542ce7170bfe028
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:42:26 IST 2022
+Code is getting applied on account:520345425786 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0bdf580d2e7110d4e
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:42:54 IST 2022
+Code is getting applied on account:148656707384 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:43:12 IST 2022
+Code is getting applied on account:259987506714 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:43:29 IST 2022
+Code is getting applied on account:44647457783 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+Adding config file to 
+
+An error occurred (ForbiddenException) when calling the GetRoleCredentials operation: No access
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:43:43 IST 2022
+Code is getting applied on account:848557332205 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-04f4f45e6ffe82a98
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:44:11 IST 2022
+Code is getting applied on account:669223117140 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name EC2_servers cannot be found.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:44:27 IST 2022
+Code is getting applied on account:246782364422 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-06444964e20ecd061
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:44:54 IST 2022
+Code is getting applied on account:863095730804 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0d8f307db282f526a
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:45:21 IST 2022
+Code is getting applied on account:458970401082 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0e6b8255f172e0a00
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:45:48 IST 2022
+Code is getting applied on account:485312260899 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-07cfb362dc9769d81
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:46:04 IST 2022
+Code is getting applied on account:657681547968 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:46:20 IST 2022
+Code is getting applied on account:216191278443 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-00542c062e3d3855b
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:46:47 IST 2022
+Code is getting applied on account:819398422556 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-02b76f743b214fce4
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:47:04 IST 2022
+Code is getting applied on account:304851017013 
+Role name for instance: DEMO_EC2
+Adding snowflake_prod_s3_policy
+
+An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name EC2_servers cannot be found.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0f490af9cfd1b3011
+i-0543f04fafa43f766
+
+An error occurred (ValidationException) when calling the SendCommand operation: You specified an instance id with an invalid format: i-0f490af9cfd1b3011
+i-0543f04fafa43f766
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:47:31 IST 2022
+Code is getting applied on account:545701820261 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+
+An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name EC2_servers cannot be found.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:47:48 IST 2022
+Code is getting applied on account:295494579406 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:48:05 IST 2022
+Code is getting applied on account:741547339323 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-066d84dbe5e76469b
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:48:31 IST 2022
+Code is getting applied on account:666717213534 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': ['arn:aws:iam::575672604269:role/envPage', 'arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount']}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:48:48 IST 2022
+Code is getting applied on account:664353777389 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-06ac8ee1fe637b961
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:49:15 IST 2022
+Code is getting applied on account:846016091089 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0234867f35d55ef51
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:49:43 IST 2022
+Code is getting applied on account:781300432669 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:50:01 IST 2022
+Code is getting applied on account:432062541160 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0f194797d12e66026
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:50:27 IST 2022
+Code is getting applied on account:897561502983 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-03d604e92687c7b2a
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:50:54 IST 2022
+Code is getting applied on account:591212346577 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:51:11 IST 2022
+Code is getting applied on account:554938577517 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-04952ca9f1957db08
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:51:38 IST 2022
+Code is getting applied on account:367276040723 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-07b4f905e844115cc
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:52:05 IST 2022
+Code is getting applied on account:288276583063 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-04902930f923bc673
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:52:32 IST 2022
+Code is getting applied on account:768545751310 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0dbf2eb2fa155b3b2
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:52:59 IST 2022
+Code is getting applied on account:404738986417 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0c169e5483c5d0d2f
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:53:27 IST 2022
+Code is getting applied on account:307762127893 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:53:43 IST 2022
+Code is getting applied on account:445516054113 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0043c67aef3d95083
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:54:10 IST 2022
+Code is getting applied on account:134284705459 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-038907eaccde7ad88
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:54:37 IST 2022
+Code is getting applied on account:928734777579 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0c2c90b75953a34fa
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:55:04 IST 2022
+Code is getting applied on account:230999311295 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-05ea9924153bae7d0
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:55:31 IST 2022
+Code is getting applied on account:171749804602 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-0f592aa0b040da78e
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:55:48 IST 2022
+Code is getting applied on account:655091057032 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0e45ad5207e18fb8a
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:56:14 IST 2022
+Code is getting applied on account:688162211510 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-01fe9e837513e861c
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:56:42 IST 2022
+Code is getting applied on account:869562651934 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-04f35e6cae15d76c7
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:56:58 IST 2022
+Code is getting applied on account:562557054605 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-0ae5cfd671ab98d2d
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:57:15 IST 2022
+Code is getting applied on account:104837470211 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0bc3982c7e006d219
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:57:43 IST 2022
+Code is getting applied on account:661664821915 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to 
+
+An error occurred (ValidationException) when calling the SendCommand operation: You must specify instance IDs or a target value. For targets, specify tag:name=value, tag-key=value, or resource-groups:attribute=value.
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:57:59 IST 2022
+Code is getting applied on account:373275528530 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com', 'AWS': 'arn:aws:iam::575672604269:role/envPage'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0d8b332fdc67b93e2
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:58:25 IST 2022
+Code is getting applied on account:395392661826 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'AWS': 'arn:aws:iam::575672604269:role/envPage', 'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-05d8b5ea5dbecc6b1
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:58:52 IST 2022
+Code is getting applied on account:632294257753 
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+IndexError: list index out of range
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+Adding config file to i-03d2c085c306c8492
+
+usage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]
+To see help text, you can run:
+
+  aws help
+  aws <command> help
+  aws <command> <subcommand> help
+
+aws: error: argument --role-name: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:59:08 IST 2022
+Code is getting applied on account:116300961321 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-03568762c3ce10c5d
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Tue May 17 23:59:36 IST 2022
+Code is getting applied on account:288053755200 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-0690ffa1d12b848de
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:00:03 IST 2022
+Code is getting applied on account:883080883690 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-01541319353881a42
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:00:31 IST 2022
+Code is getting applied on account:532781312430 
+Role name for instance: EC2_servers
+Adding snowflake_prod_s3_policy
+OLD Policy:
+{'Version': '2012-10-17', 'Statement': [{'Effect': 'Allow', 'Principal': {'Service': 'ec2.amazonaws.com'}, 'Action': 'sts:AssumeRole'}]}
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+Adding config file to i-071e125f5ef1c4322
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:00:58 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:01:02 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:01:06 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:01:10 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------
+Wed May 18 00:01:14 IST 2022
+Code is getting applied on account: 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+Role name for instance: 
+Adding snowflake_prod_s3_policy
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.8/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 1 (char 1)
+OLD Policy:
+
+Adding the new trust relatioship Policy:
+Applying new trust Policy:
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+Adding config file to 
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+
+usage: aws [-h] [--profile PROFILE] [--debug]
+
+aws: error: argument --profile: expected one argument
+
+ 
+----------------------------------------------------------------------------------------------------------------------------------

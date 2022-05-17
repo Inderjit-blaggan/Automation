@@ -1,0 +1,10 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Resource": "arn:aws:iam::381203884180:role/snowflake_assume_role_for_multiaccount",
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
