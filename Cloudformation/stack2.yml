@@ -1,0 +1,7 @@
+
+
+Resources:
+  MyEIP:
+    Type: AWS::EC2::EIP
+    Properties:
+      InstanceId: !ImportValue instance-id-stack-1

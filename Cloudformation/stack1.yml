@@ -1,0 +1,24 @@
+Parameters:
+  ImageId:
+    Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
+    Default: /aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
+
+  myKeyPair:
+    Description: Amazon EC2 Key Pair
+    Type: "AWS::EC2::KeyPair::KeyName"
+
+Resources:
+  MyInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AvailabilityZone: ap-south-1a
+      ImageId: !Ref ImageId
+      InstanceType: t2.micro
+    
+
+Outputs:
+  InstanceID:
+    Description: The Instance ID
+    Value: !Ref MyInstance
+    Export:
+      Name: instance-id-stack-1
